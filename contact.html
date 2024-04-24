@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anna K. Brown">
+    <title>Contact</title>
+    <link rel="icon" href="IMAGES/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href = "styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Hydrangea Resort</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#chalet">Accommodations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <section>
+                <h2>Contact Us</h2>
+                <p>Nestled in a beautiful valley in the Swiss Alps, our resort is the perfect escape from the mundane. Dining options include an Italian restaurant, and ski-in bars on mountainside terraces. Other amenities consist of an upscale spa, hot tubs, a gym and a climbing wall. Breakfast is available.</p>
+                <img src="IMAGES/swiss-peak.jpg" alt="A mountain peak in the Swiss Alps">
+            </section>
+            <section>
+                <form action="http://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="fullname">Full Name <span>*</span></label>
+                    <input type="text" id="fullname" name="fullname" required>
+                
+                    <label for="email">Email Address <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="phone">Phone Number <span>*</span></label>
+                    <input type="text" id="phone" name="phone" required>
+                
+                    <label for="contact-method">Preferred Contact Method <span>*</span></label>
+                    <select id="contact-method" name="contact-method" required>
+                        <option value="" selected disabled hidden>Select Contact Method</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+                
+                    <label for="comments">Comments <span>*</span></label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+                
+            </section>
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyright ©2023 - Swiss Valley Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
